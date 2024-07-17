@@ -1,0 +1,8 @@
+--PAra generar database
+npx prisma migrate dev --name init 
+--Actualizar campo
+npx prisma migrate dev --name available
+
+
+--Convertir a microservicio
+ npm i --save @nestjs/microservices
